@@ -11,14 +11,6 @@ Bu yazılım geliştirme projesi, ders programlarını optimize etmek ve çakı�
 - **Algoritma:** Greedy graph coloring algoritması, ders programlarını renklendirerek çakışmaları önlemek için kullanılmıştır.
 - **Python ve Grafik Kütüphaneleri:** Python dilinde yazılmış bir dosya, networkx ve matplot kütüphaneleri kullanılarak ders programını görsel olarak temsil etmektedir.
 
-## Geliştirme Süreci
-
-1. **Veri Tabanı Oluşturma:** MySQL üzerinde "Dersler", "Hocalar", ve "Hoca_ders" tabloları başarıyla oluşturuldu.
-2. **Web Tabanlı Uygulama:** XAMPP ve PHP kullanılarak yerel bir sunucu oluşturuldu. Veri çekme işlemi ve temel HTML arayüzü oluşturuldu.
-3. **Algoritmanın Geliştirilmesi:** Greedy graph coloring algoritması kullanılarak ders programlarını renklendirme algoritması geliştirildi.
-4. **Veri Düzenleme Sayfası:** JavaScript ve modaller kullanılarak kullanıcı dostu bir veri düzenleme sayfası oluşturuldu.
-5. **PDF Çıktısı Alma:** Ders programının onaylanması sonrasında, program PDF dosyasına çevrildi ve kullanıcıya kaydetme imkanı sunuldu.
-6. **Grafik Temsil:** Python dilinde yazılan bir dosya ile oluşturulan algoritma, görsel grafik figürler aracılığıyla temsil edildi.
 
 ## Başlarken
 
