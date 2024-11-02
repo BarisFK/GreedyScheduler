@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 import pymysql.cursors
 import networkx as nx
-# Önce bağlantıyı oluşturun
+# Bağlantıyı oluştur
 connection = pymysql.connect(
     host='localhost',
     user='root',
@@ -123,5 +123,5 @@ node_colors = [data["color"] for _, data in coloring.items()]
 labels = nx.get_node_attributes(G, 'label')
 nx.draw_networkx_nodes(G, pos, node_color=node_colors)
 nx.draw_networkx_edges(G, pos)
-nx.draw_networkx_labels(G, pos, labels, font_size=8)  # with_labels argümanı burada kullanılır
+nx.draw_networkx_labels(G, pos, labels, font_size=8) 
 plt.show()
